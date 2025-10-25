@@ -1,7 +1,6 @@
 // C program to count the Lines of the input
 #include<stdio.h>
 #include<string.h>
-#include<ctype.h>
 
 int main(){
     char s[1000];
@@ -15,4 +14,5 @@ int main(){
     }
     printf("Total Lines: %d\n", count);
     return 0;
+
 }
