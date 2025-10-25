@@ -14,3 +14,7 @@ int main(){
     printf("%s", s);
     return 0;
 }
+
+// Wrapped up 
+//     if(s[i] >= 'a' && s[i] <= 'z')
+//     s[i] = 'a' + (s[i]-'a'+3)%26;
