@@ -7,7 +7,7 @@ int main(){
     gets(a);
     int count=0;
 
-    for(int i=0;i<a[i];i++){
+    for(int i=0;a[i];i++){
         count++;
     }
 
@@ -15,6 +15,7 @@ int main(){
 
     printf("Length of string: %d\n", count);
     printf("Reversed Length: %d\n", count);
-    printf("Reverse is: %s\n", a, strrev(a));
+    printf("Reverse is: %s\n", strrev(a));
     return 0;
+
 }
