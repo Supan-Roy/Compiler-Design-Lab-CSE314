@@ -1,4 +1,4 @@
-// C program to count Vowel, Consonant & Digit 
+// C program to count Vowel, Consonant & Digit
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
