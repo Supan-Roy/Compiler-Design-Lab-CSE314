@@ -10,16 +10,14 @@ int main(){
     printf("Tokens are: \n");
 
     for(int i=0; s[i]!='\0';i++){
-        if(s[i]==' '){
-            while(s[i+1]==' '){
-                i++;
-            }
-            printf("\n");
+        if(s[i]!=' ' && s[i]!='\n'){
+            printf("%c", s[i]);
         }
         else {
-            printf("%c", s[i]);
+            printf("\n");
         }
     }
 
     return 0;
+
 }
